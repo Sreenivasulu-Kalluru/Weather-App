@@ -3,6 +3,9 @@
 // Function to get the data from weather app
 // Manipluate the varibe of already created element
 
+require('dotenv').config();
+const API_KEY = process.env.API_KEY;
+
 let data;
 
 const time = document.getElementById('time');
