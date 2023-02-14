@@ -2,7 +2,6 @@
   "name": "weather-web-app",
   "version": "1.0.0",
   "description": "A weather web app",
-  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
